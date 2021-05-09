@@ -14,10 +14,12 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    <p>{ { post.excerpt }}</p>
+    <p>{ { post.excerpt }} ...<a href="{{ post.url }}"> [read more] </a> </p>
+    <hr />
 
   </div>
   {% endfor %}
+
 </div>
 
 <div class="pagination">
