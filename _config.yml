@@ -4,8 +4,8 @@ highlighter:      rouge
 
 # Setup
 title:            imShakil
-tagline:          'Support Engineer | Gluu.org'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
+tagline:          'A Personal Blog'
+description:      'Support Engineer | Gluu'
 url:              https://fongandrew.github.io
 baseurl:          ''
 
