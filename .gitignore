@@ -133,3 +133,6 @@ dmypy.json
 
 .jekyll-cache
 _site
+.jekyll-cache/*
+_site/*
+
