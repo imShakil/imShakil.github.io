@@ -1,10 +1,9 @@
 ---
 title: 'Version Control Systems (VCS): Git and Github'
-description: A beginner guide to manage software version using git and github
+excerpt: "An application is maintained over and overtime to fix its bugs, adding new features, changing its user interface, etc. If we look at **apple** or **google** play store, we see Facebook, Instagram, Whatsapp, etc, these applications are updated once or twice every month where each update has a version name like v2.1, v2.2. Managing versions of software with ease and flexibility **Version Control** plays a major role in the software industry."
 date: '2020-06-11T10:28:07.500Z'
 categories: []
 keywords: []
-slug: /@imshakil/version-control-systems-vcs-git-and-github-7020434d912c
 ---
 
 ![](img/1__aZwkyRkEL4PPs92c8WoVJA.png)

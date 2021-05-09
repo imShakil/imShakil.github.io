@@ -1,7 +1,6 @@
 ---
-title: Basic Understanding on Python Virtual Environment
-description: An introduction to virtual environment for understanding its necessity to
-  maintain python packages and modules.
+title: "Basic Understanding on Python Virtual Environment"
+excerpt: "In Python programming, we need an interpreter to compile our python program. We know that python has several versions, commonly `python2.x` and `ptyhon3.x`. To build a python application, we often use third party packages and modules. Each package and module may have several versions in which one version may support `python2.x` whereas another version may support `python3.x`"
 date: '2020-06-17T13:27:43.030Z'
 categories: []
 keywords: []

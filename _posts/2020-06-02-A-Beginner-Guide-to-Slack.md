@@ -1,6 +1,6 @@
 ---
-title: A Beginner Guide to Slack
-description: In this article, I’m going to introduce a great workplace messaging platform called “slack” which is used for team collaboration. Slack is…
+title: "A Beginner Guide to Slack"
+excerpt: "In this article, I’m going to introduce a great workplace messaging platform called “slack” which is used for team collaboration."
 date: '2020-06-02T20:13:59.047Z'
 categories: []
 keywords: []
