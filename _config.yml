@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
 # Permalinks
@@ -11,13 +11,16 @@ title:            'IMSHAKIL'
 tagline:          'Support Engineer | Gluu.org'
 description:      ''
 url:              https://github.com/imshakil
-baseurl:          https://imshakil.github.io/
+baseurl:          ''
 
 author:
   name:           'Mark Otto'
   url:            https://twitter.com/mdo
 
-excerpt_separator: \n\n
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+
 paginate:         5
 
 # Custom vars
