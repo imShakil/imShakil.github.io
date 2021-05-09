@@ -6,9 +6,10 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Mobarak Hosen Shakil ~ A personal blog
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+profile: true
+title:            Mobarak Hosen Shakil
+tagline:          'Support Engineer at Gluu.org'
+description:      ''
 url:              https://github.com/imshakil
 baseurl:          https://imshakil.github.io/
 
@@ -16,6 +17,7 @@ author:
   name:           'Mark Otto'
   url:            https://twitter.com/mdo
 
+excerpt_separator: \n\n
 paginate:         5
 
 # Custom vars
