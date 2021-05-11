@@ -161,23 +161,18 @@ So now, we know some basic commands and functionality of git and Github. In the 
 
 Let’s start with a repository to understand Git and Github in a better way.
 
-#1. Go to the [Github](https://github.com) website and log in using your Github account.
+1. Go to the [Github](https://github.com) website and log in using your Github account.
 
-#2. Navigate to the top right corner and click into the ‘+’ icon then chose `new repository` to create a repo.
+2. Navigate to the top right corner and click into the ‘+’ icon then chose `new repository` to create a repo.
 
 <img src="../assets/img/1__bTWWRzbQReDuTswtFO39Dg.png">
-
-#3. Chose a repository name and set a description, choose public so that anyone can see it in your profile, choose to initiate with a readme.md file then create a repository
-
+3. Chose a repository name and set a description, choose public so that anyone can see it in your profile, choose to initiate with a readme.md file then create a repository
 <img src="../assets/img/1__5sLIaBWRCpAvmDU__Kvl2HQ.png">
-
 
 _If you want to skip the above steps then you can just start from step-4 to clone my repository and contributing as a team member._
 
-#4. Let’s clone the created repository into our local machine(computer). before cloning it, let’s check that git is working or not on our computer. to check enter following command: `git --version` you will see an output with a version:
-
+4. Let’s clone the created repository into our local machine(computer). before cloning it, let’s check that git is working or not on our computer. to check enter following command: `git --version` you will see an output with a version:
 <img src="../assets/img/1__us0yh41eJ4kEfJ19Z7GuxQ.png">
-
 
 okay, git is fine. let’s clone the repository. choose a directory where you want to clone it. Then perform the following command:
 
@@ -194,7 +189,7 @@ git remote
 git branch
 ```
 
-#5. Now let’s create a branch named ‘demo’:
+5. Now let’s create a branch named ‘demo’:
 
 To create a branch:
 
@@ -222,7 +217,7 @@ git checkout "branch name"
 
 <img src="../assets/img/1__PDEr__cQlj0JWVN4g5qmKMw.png">
 
-#6. Adding a python hello world in this repo.
+6. Adding a python hello world in this repo.
 
 ```
 git add hello.py
@@ -230,7 +225,7 @@ git add hello.py
 
 <img src="../assets/img/1__SDZy__V__blASWfRNIkQejHQ.png">
 
-#7. Let’s commit to recording these changes:
+7. Let’s commit to recording these changes:
 
 ```
 git commit -m “python hello world added”
@@ -239,7 +234,7 @@ git commit -m “python hello world added”
 <img src="../assets/img/1__8__PGe__SL5Y24unwssyvOxg.png">
 
 
-#8. Okay, now we are going to push these changes to the “demo” branch in the Github repository from our local machine.
+8. Okay, now we are going to push these changes to the “demo” branch in the Github repository from our local machine.
 
 First, set upstream of branch “demo” to the remote “origin”
 
@@ -268,7 +263,7 @@ You will see the differences:
 
 <img src="../assets/img/1__DKvNHsg__WWZJTmGs5YV4tw.png">
 
-#9. Let’s make a pull request from “demo” branch to the “master” branch.
+9. Let’s make a pull request from “demo” branch to the “master” branch.
 
 <img src="../assets/img/1__YyWDU__nIgEpQRaVdQqFFoQ.png">
 
@@ -279,7 +274,7 @@ When you switch demo branch in Github you may see something “This branch is 1 
 
 You can say something relevant with the pull request then create a pull request.
 
-#10. After successfully sending a pull request, the master branch can merge the pull request, even he can modify the changes.
+10. After successfully sending a pull request, the master branch can merge the pull request, even he can modify the changes.
 
 <img src="../assets/img/1__K__ZIrOwKmNNvY668Rpwrxw.png">
 
@@ -287,7 +282,7 @@ Just click on the “merge pull request” to merge it with the “master” bra
 
 So, The “master” branch is updated now in Github but not in your local machine (Computer).
 
-#11. To update the master branch in your computer locally you need to run a pull command.
+11. To update the master branch in your computer locally you need to run a pull command.
 
 First, make sure you are on the master branch:
 

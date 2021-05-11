@@ -7,7 +7,7 @@ tags: ['python', 'virtual environment']
 toc: true
 ---
 
-![](../assets/img/1__wIljxFj3__RVS__TTpTjWigw.jpeg)
+<img src="../assets/img/1__wIljxFj3__RVS__TTpTjWigw.jpeg">
 
 In Python programming, we need an interpreter to compile our python program. We know that python has several versions, commonly `python2.x` and `ptyhon3.x`. To build a python application, we often use third party packages and modules. Each package and module may have several versions in which one version may support `python2.x` whereas another version may support `python3.x`.
 
@@ -19,7 +19,7 @@ The solution for this problem is to create a **virtual environment**, a self-con
 
 A virtual environment is a tool that helps to keep dependencies by different projects separate by creating isolated Python virtual environments for them.
 
-![](../assets/img/1__HE7Z5NJc5UGTUs4gJFlM3A.png)
+<img src="../assets/img/1__HE7Z5NJc5UGTUs4gJFlM3A.png">
 
 Whenever you start working on projects, you can create different virtual environments for each project separately with different python versions. In the above pictures, It’s shown that each virtual environment uses a different version of a module `ansible` . Each environment will be its own virtual space. All packages installed within that space would not interfere with packages outside the environment and will be contained only inside this space.
 
@@ -29,6 +29,7 @@ When you install packages and modules, there are few different locations where t
 
 Run below program:
 
+```
 #python3.x
 
 import site  
@@ -36,11 +37,14 @@ import sys
 
 print(sys.prefix)  
 print(site.getsitepackages())
+```
 
 You will get an output like below:
 
+```
 /home/imshakil/PythonVenv  
-\['/home/imshakil/PythonVenv/lib/python3.6/site-packages', '/home/imshakil/PythonVenv/local/lib/python3.6/dist-packages', '/home/imshakil/PythonVenv/lib/python3/dist-packages', '/home/imshakil/PythonVenv/lib/python3.6/dist-packages', '/usr/lib/python3.6/site-packages', '/usr/local/lib/python3.6/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.6/dist-packages'\]
+['/home/imshakil/PythonVenv/lib/python3.6/site-packages', '/home/imshakil/PythonVenv/local/lib/python3.6/dist-packages', '/home/imshakil/PythonVenv/lib/python3/dist-packages', '/home/imshakil/PythonVenv/lib/python3.6/dist-packages', '/usr/lib/python3.6/site-packages', '/usr/local/lib/python3.6/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.6/dist-packages']
+```
 
 Process finished with exit code 0
 
@@ -58,23 +62,28 @@ There are few options to install the virtual environment on your system. Let’s
 
 **Venv** will usually install the latest python version that you have available. If you have several Python versions on your system you can use a specific version, i,e; `python3` or whatever you want. to check available python version on your system following commands in linux:
 
+```
 which python  
-which python3.x #   
-  
+which python3.x
+```   
 
-![](../assets/img/1__enheWLs__sCoiJk6la9__9Gw.png)
+<img src="../assets/img/1__enheWLs__sCoiJk6la9__9Gw.png">
 
 Go to a directory where you want to create a virtual environment and then run the following command:
 
+```
 sudo apt install virtualenv  
 sudo apt-get install python3-venv  
 python3 -m venv TestVenv
+```
 
 This will create a virtual environment directory as “`TestVenv`” with Python3.
 
 to activate this:
 
+```
 /TestVenv/bin/activate
+```
 
 Virtual Environment should be used whenever you work on any Python-based project. It is generally good to have one new virtual environment for every Python-based project you work on. So the dependencies of every project are isolated from the system and each other.
 
