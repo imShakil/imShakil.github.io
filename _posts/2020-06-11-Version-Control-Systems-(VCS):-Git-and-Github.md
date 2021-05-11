@@ -3,11 +3,11 @@ title: 'Version Control Systems (VCS): Git and Github'
 excerpt: "An application is maintained over and overtime to fix its bugs, adding new features, changing its user interface, etc. If we look at **apple** or **google** play store, we see Facebook, Instagram, Whatsapp, etc, these applications are updated once or twice every month where each update has a version name like v2.1, v2.2. Managing versions of software with ease and flexibility **Version Control** plays a major role in the software industry."
 date: '2020-06-11T10:28:07.500Z'
 categories: []
-keywords: []
+tags: ['git', 'github', 'vcs', 'version control']
 ---
 
 ![](img/1__aZwkyRkEL4PPs92c8WoVJA.png)
-undefined
+
 
 An application is maintained over and overtime to fix its bugs, adding new features, changing its user interface, etc. If we look at **apple** or **google** play store, we see Facebook, Instagram, Whatsapp, etc, these applications are updated once or twice every month where each update has a version name like v2.1, v2.2. Managing versions of software with ease and flexibility **Version Control** plays a major role in the software industry.
 
@@ -30,7 +30,7 @@ Git is a distributed version control system. Git installs locally on computers. 
 According to your device and operating system, you can setup Git from their website.
 
 [**Downloads**  
-_Git comes with built-in GUI tools ( git-gui, gitk), but there are several third-party tools for users looking for a…_git-scm.com](https://git-scm.com/downloads "https://git-scm.com/downloads")[](https://git-scm.com/downloads)
+_Git comes with built-in GUI tools ( git-gui, gitk), but there are several third-party tools for users looking for a…_git-scm.com](https://git-scm.com/downloads)
 
 If you are a Linux user then use this command to install it on your computer:
 
@@ -38,14 +38,14 @@ sudo apt install git-all
 
 ### GitHub
 
-#### What’s GitHub?
+#### What is GitHub?
 
 GitHub is designed as a git repository hosting service. You can share your projects with others to work together as a team. It’s the largest online platform used by the 37 million users around the world.
 
 GitHub has free and premium plans varying their services.
 
 ![](img/1__pw9dHj__jZTItVtTiVsUpJA.png)
-undefined
+
 
 GitHub also likes a GUI for the git command-line tool. It makes more easy to learn how Git works. Simply create an account from their website to start using their services.
 
@@ -60,7 +60,9 @@ Before getting started with Git and GitHub, let’s know the major concepts of G
 
 The repository is the most important component of the version control system. A repository can be viewed as a folder or project with a set of files and subfolders.
 
+```
 git init
+```
 
 This command is used to create a folder as a git repository. After performing this command, a `.git` folder is created where each change of file is recorded. Thie metadata is everything of a git repository. This folder doesn’t show in your GitHub repository rather than it can be found on your local machine when you clone a git repository.
 
@@ -72,11 +74,13 @@ A workspace is something that you don’t want to share as open-source or somewh
 
 Each file in your working directory can be in one of two states: **tracked** or **untracked**. Tracked files are files that were in the last snapshot; they can be unmodified, modified, or staged. In short, tracked files are files that Git knows about. To **track** files**:**
 
+```
 git add file1 file2...
 
 git add --all
 
 git add .
+```
 
 1st command can be used to add specific files in the track whereas 2nd and 3rd command can be used to add all files in the track.
 
@@ -87,8 +91,9 @@ As you edit files, Git sees them as modified, because you’ve changed them sinc
 ![](img/1__tl3B9CRamhIw54usIfXubw.png)
 
 To check `git status` use below command line:
-
+```
 git status
+```
 
 #### Commits
 
@@ -103,7 +108,7 @@ There are two types of commits: `stage` and `unstage` . When you add or edit a 
 Branching means you diverge from the main line of development and continue to do work without messing with that main line.
 
 ![](img/1__nm__PXTDMBjOBF6Ukm3mc4A.png)
-undefined
+
 
 The ‘master’ branch is the main branch of the project. This ‘master’ branch merge files that are pushed from other branches. It will be more clear when you are used to be with GitHub.
 
@@ -125,25 +130,33 @@ Remote repositories are versions of your project that are hosted on the Internet
 
 To check remotes in your git repository use this command:
 
+```
 git remote
+```
 
 or to see with repository URL:
 
+```
 git remote -v
+```
 
 To add remote:
 
+```
 git remote add “remote name” “remote url”
+```
 
 To remove remote:
 
+```
 git remote remove "remote name"
+```
 
 #### Merging
 
 Merging in git repository means combining branches with the master branch in the version control system.
 
-So now, we know some basic commands and functionalities of git and Github. In the last part of this article, I’m going through an example to show you how to create a repo in Github, cloning it into our local machine using Git command, adding some changes into that repo, commit those changes, and pushing changes up to GitHub, then creating a pull request and finally merging it to master branch.
+So now, we know some basic commands and functionality of git and Github. In the last part of this article, I’m going through an example to show you how to create a repo in Github, cloning it into our local machine using Git command, adding some changes into that repo, commit those changes, and pushing changes up to GitHub, then creating a pull request and finally merging it to master branch.
 
 ### Getting Started with Git and GitHub
 
@@ -158,70 +171,88 @@ Let’s start with a repository to understand Git and Github in a better way.
 #3. Chose a repository name and set a description, choose public so that anyone can see it in your profile, choose to initiate with a readme.md file then create a repository
 
 ![](img/1__5sLIaBWRCpAvmDU__Kvl2HQ.png)
-undefined
+
 
 _If you want to skip the above steps then you can just start from step-4 to clone my repository and contributing as a team member._
 
 #4. Let’s clone the created repository into our local machine(computer). before cloning it, let’s check that git is working or not on our computer. to check enter following command: `git --version` you will see an output with a version:
 
 ![](img/1__us0yh41eJ4kEfJ19Z7GuxQ.png)
-undefined
+
 
 okay, git is fine. let’s clone the repository. choose a directory where you want to clone it. Then perform the following command:
 
 git clone [https://github.com/imShakil/test.git](https://github.com/imShakil/test.git)
 
 ![](img/1____WgYZPwE0Msxdr__6IEkNQg.png)
-undefined
+
 
 Now you have a version of your repository into your local machine. You can perform some git command to see what happens like:
 
+```
 git status  
 git remote  
 git branch
+```
 
 #5. Now let’s create a branch named ‘demo’:
 
 To create a branch:
 
+```
 git checkout -b “branch name”
+```
 
 To see list of branch:
 
+```
 git branch
+```
 
 To delete a branch:
 
+```
 git checkout -d "branch name"
+```
 
 To switch from the current branch to another branch:
 
+```
 git checkout "branch name"
+```
 
 ![](img/1__PDEr__cQlj0JWVN4g5qmKMw.png)
 
 #6. Adding a python hello world in this repo.
 
+```
 git add hello.py
+```
 
 ![](img/1__SDZy__V__blASWfRNIkQejHQ.png)
 
 #7. Let’s commit to recording these changes:
 
+```
 git commit -m “python hello world added”
+```
 
 ![](img/1__8__PGe__SL5Y24unwssyvOxg.png)
-undefined
+
 
 #8. Okay, now we are going to push these changes to the “demo” branch in the Github repository from our local machine.
 
 First, set upstream of branch “demo” to the remote “origin”
 
+```
 git --set-upstream origin demo
+```
 
 Then push it
 
+```
 git push
+```
 
 After successfully pushed it to Github, you will see the difference between master and demo branches as below in Github:
 
@@ -230,7 +261,9 @@ After successfully pushed it to Github, you will see the difference between mast
 
 also, you can check the differences between any two branches locally on your computer.
 
+```
 git diff master demo
+```
 
 You will see the differences:
 
@@ -239,7 +272,7 @@ You will see the differences:
 #9. Let’s make a pull request from “demo” branch to the “master” branch.
 
 ![](img/1__YyWDU__nIgEpQRaVdQqFFoQ.png)
-undefined
+
 
 When you switch demo branch in Github you may see something “This branch is 1 commit ahead of master”. Now click on “New pull request” to create a pull request.
 
@@ -260,14 +293,18 @@ So, The “master” branch is updated now in Github but not in your local machi
 
 First, make sure you are on the master branch:
 
+```
 git checkout master
+```
 
 Now, run a pull command:
 
+```
 git pull origin master
+```
 
 ![](img/1__owUXMcX8M2S10VNnouoQhw.png)
-undefined
+
 
 I hope you understand **Version Control,** how Git and Github works, and how to use those tools to control software versions.
 
@@ -279,6 +316,6 @@ References:
 
 \[2\]: [https://help.github.com/en/github](https://help.github.com/en/github)
 
-\[3\]: [https://en.wikipedia.org/wiki/Version\_control](https://en.wikipedia.org/wiki/Version_control)
+\[3\]: [https://en.wikipedia.org/wiki/Version_control](https://en.wikipedia.org/wiki/Version_control)
 
 \[4\]: [https://guides.github.com/introduction/git-handbook/](https://guides.github.com/introduction/git-handbook/)

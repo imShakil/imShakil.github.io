@@ -61,19 +61,19 @@ sudo snap install slack --classic
 If you are a member of an existing workspace, then you can simply sign in using this URL: [https://slack.com/signin](https://slack.com/signin)
 
 ![](img/1__HGBl____M2cct8jN32V5gpiQ.png)
-undefined
+
 
 or if you want to create a workspace then choose the below option in the above picture or click [here](https://slack.com/create) to create your workspace. After successfully logged in your workspace, you can add/invite people in your team to work together, you can create multiple channels to discuss several topics.
 
 To invite people, click on the workspace name and then choose the invite option:
 
 ![](img/1__oqO8DKJjCLgeC3xOpFiqEA.png)
-undefined
+
 
 To create a channel click on the **channel (+) > Create Channel**
 
 ![](img/1__ijkEESwRJ0gq4tYXgwN8Og.png)
-undefined
+
 
 Choose the “Make private” option to create a private channel.
 
