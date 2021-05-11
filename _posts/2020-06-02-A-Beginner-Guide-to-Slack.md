@@ -25,7 +25,8 @@ Slack is a single workplace for messaging, file sharing between team members. It
 3.  A number of peoples
 4.  Messaging window
 
-![](../assets/img/1__z8__ujeY5jW2B__AiQa5no__g.png)
+{% include image.html src="/assets/img/posts/2020-06-02-A-beginner-guide-to-slack/1__z8__ujeY5jW2B__AiQa5no__g.png" %}
+<img src="/assets/img/posts/2020-06-02-A-beginner-guide-to-slack/1__z8__ujeY5jW2B__AiQa5no__g.png">
 
 To use slack, we have to choose a unique workspace name, this name generates a unique URL to visit the workspace. In the following picture, EduHubICT as the workspace name, and its URL is: [eduhubict.slack.com](http://eduhubict.slack.com)
 
