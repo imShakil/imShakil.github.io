@@ -2,12 +2,12 @@
 title: 'Version Control Systems (VCS): Git and Github'
 excerpt: "An application is maintained over and overtime to fix its bugs, adding new features, changing its user interface, etc. If we look at **apple** or **google** play store, we see Facebook, Instagram, Whatsapp, etc, these applications are updated once or twice every month where each update has a version name like v2.1, v2.2. Managing versions of software with ease and flexibility **Version Control** plays a major role in the software industry."
 date: '2020-06-11T10:28:07.500Z'
-categories: []
+categories: ['software']
 tags: ['git', 'github', 'vcs', 'version control']
+toc: true
 ---
 
-![](../assets/img/1__aZwkyRkEL4PPs92c8WoVJA.png)
-
+<img src="../assets/img/1__aZwkyRkEL4PPs92c8WoVJA.png">
 
 An application is maintained over and overtime to fix its bugs, adding new features, changing its user interface, etc. If we look at **apple** or **google** play store, we see Facebook, Instagram, Whatsapp, etc, these applications are updated once or twice every month where each update has a version name like v2.1, v2.2. Managing versions of software with ease and flexibility **Version Control** plays a major role in the software industry.
 
@@ -44,8 +44,7 @@ GitHub is designed as a git repository hosting service. You can share your proje
 
 GitHub has free and premium plans varying their services.
 
-![](../assets/img/1__pw9dHj__jZTItVtTiVsUpJA.png)
-
+<img src="../assets/img/1__pw9dHj__jZTItVtTiVsUpJA.png">
 
 GitHub also likes a GUI for the git command-line tool. It makes more easy to learn how Git works. Simply create an account from their website to start using their services.
 
@@ -88,7 +87,7 @@ Untracked files are everything else — any files in your working directory 
 
 As you edit files, Git sees them as modified, because you’ve changed them since your last commit. As you work, you selectively stage these modified files and then commit all those staged changes, and the cycle repeats.
 
-![](../assets/img/1__tl3B9CRamhIw54usIfXubw.png)
+<img src="../assets/img/1__tl3B9CRamhIw54usIfXubw.png">
 
 To check `git status` use below command line:
 ```
@@ -107,14 +106,14 @@ There are two types of commits: `stage` and `unstage` . When you add or edit a 
 
 Branching means you diverge from the main line of development and continue to do work without messing with that main line.
 
-![](../assets/img/1__nm__PXTDMBjOBF6Ukm3mc4A.png)
+<img src="../assets/img/1__nm__PXTDMBjOBF6Ukm3mc4A.png">
 
 
 The ‘master’ branch is the main branch of the project. This ‘master’ branch merge files that are pushed from other branches. It will be more clear when you are used to be with GitHub.
 
 #### Push, Pull and Pull Request
 
-![](../assets/img/1__8SZ4AjUoMKsbrOn4xDx0mQ.png)
+<img src="../assets/img/1__8SZ4AjUoMKsbrOn4xDx0mQ.png">
 
 From the above picture, you may think about how `pull & push` works in a git repository.
 
@@ -166,25 +165,25 @@ Let’s start with a repository to understand Git and Github in a better way.
 
 #2. Navigate to the top right corner and click into the ‘+’ icon then chose `new repository` to create a repo.
 
-![](../assets/img/1__bTWWRzbQReDuTswtFO39Dg.png)
+<img src="../assets/img/1__bTWWRzbQReDuTswtFO39Dg.png">
 
 #3. Chose a repository name and set a description, choose public so that anyone can see it in your profile, choose to initiate with a readme.md file then create a repository
 
-![](../assets/img/1__5sLIaBWRCpAvmDU__Kvl2HQ.png)
+<img src="../assets/img/1__5sLIaBWRCpAvmDU__Kvl2HQ.png">
 
 
 _If you want to skip the above steps then you can just start from step-4 to clone my repository and contributing as a team member._
 
 #4. Let’s clone the created repository into our local machine(computer). before cloning it, let’s check that git is working or not on our computer. to check enter following command: `git --version` you will see an output with a version:
 
-![](../assets/img/1__us0yh41eJ4kEfJ19Z7GuxQ.png)
+<img src="../assets/img/1__us0yh41eJ4kEfJ19Z7GuxQ.png">
 
 
 okay, git is fine. let’s clone the repository. choose a directory where you want to clone it. Then perform the following command:
 
 git clone [https://github.com/imShakil/test.git](https://github.com/imShakil/test.git)
 
-![](../assets/img/1____WgYZPwE0Msxdr__6IEkNQg.png)
+<img src="../assets/img/1____WgYZPwE0Msxdr__6IEkNQg.png">
 
 
 Now you have a version of your repository into your local machine. You can perform some git command to see what happens like:
@@ -221,7 +220,7 @@ To switch from the current branch to another branch:
 git checkout "branch name"
 ```
 
-![](../assets/img/1__PDEr__cQlj0JWVN4g5qmKMw.png)
+<img src="../assets/img/1__PDEr__cQlj0JWVN4g5qmKMw.png">
 
 #6. Adding a python hello world in this repo.
 
@@ -229,7 +228,7 @@ git checkout "branch name"
 git add hello.py
 ```
 
-![](../assets/img/1__SDZy__V__blASWfRNIkQejHQ.png)
+<img src="../assets/img/1__SDZy__V__blASWfRNIkQejHQ.png">
 
 #7. Let’s commit to recording these changes:
 
@@ -237,7 +236,7 @@ git add hello.py
 git commit -m “python hello world added”
 ```
 
-![](../assets/img/1__8__PGe__SL5Y24unwssyvOxg.png)
+<img src="../assets/img/1__8__PGe__SL5Y24unwssyvOxg.png">
 
 
 #8. Okay, now we are going to push these changes to the “demo” branch in the Github repository from our local machine.
@@ -256,8 +255,8 @@ git push
 
 After successfully pushed it to Github, you will see the difference between master and demo branches as below in Github:
 
-![](../assets/img/1__sdZZfKJ0zJfsyt5__FE5ZGg.png)
-![](../assets/img/1__ZnT6rTVoP__ZLt8cbYA110Q.png)
+<img src="../assets/img/1__sdZZfKJ0zJfsyt5__FE5ZGg.png">
+<img src="../assets/img/1__ZnT6rTVoP__ZLt8cbYA110Q.png">
 
 also, you can check the differences between any two branches locally on your computer.
 
@@ -267,23 +266,22 @@ git diff master demo
 
 You will see the differences:
 
-![](../assets/img/1__DKvNHsg__WWZJTmGs5YV4tw.png)
+<img src="../assets/img/1__DKvNHsg__WWZJTmGs5YV4tw.png">
 
 #9. Let’s make a pull request from “demo” branch to the “master” branch.
 
-![](../assets/img/1__YyWDU__nIgEpQRaVdQqFFoQ.png)
+<img src="../assets/img/1__YyWDU__nIgEpQRaVdQqFFoQ.png">
 
 
 When you switch demo branch in Github you may see something “This branch is 1 commit ahead of master”. Now click on “New pull request” to create a pull request.
 
-![](../assets/img/1__1GVDU1bWSZyaY9G5G__NH__w.png)
+<img src="../assets/img/1__1GVDU1bWSZyaY9G5G__NH__w.png">
 
 You can say something relevant with the pull request then create a pull request.
 
 #10. After successfully sending a pull request, the master branch can merge the pull request, even he can modify the changes.
 
-![](../assets/img/1__K__ZIrOwKmNNvY668Rpwrxw.png)
-undefined
+<img src="../assets/img/1__K__ZIrOwKmNNvY668Rpwrxw.png">
 
 Just click on the “merge pull request” to merge it with the “master” branch.
 
@@ -303,7 +301,7 @@ Now, run a pull command:
 git pull origin master
 ```
 
-![](../assets/img/1__owUXMcX8M2S10VNnouoQhw.png)
+<img src="../assets/img/1__owUXMcX8M2S10VNnouoQhw.png">
 
 
 I hope you understand **Version Control,** how Git and Github works, and how to use those tools to control software versions.
