@@ -17,6 +17,12 @@
         <span class="contact-info p-name">{{ site.author | escape }}</span>
       </li>
     {%- endif %}
+    {% if site.description -%}
+      <li>
+        <i class="sidebar-icon fas fa-at"></i>
+        <span class="contact-info p-name">{{ site.description | escape }}</span>
+      </li>
+    {%- endif %}
     {% if site.email -%}
       <li>
         <i class="sidebar-icon fas fa-envelope"></i>

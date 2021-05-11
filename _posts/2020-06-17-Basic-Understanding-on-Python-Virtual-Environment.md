@@ -6,7 +6,7 @@ categories: []
 keywords: []
 ---
 
-![](img/1__wIljxFj3__RVS__TTpTjWigw.jpeg)
+![](../assets/img/1__wIljxFj3__RVS__TTpTjWigw.jpeg)
 
 In Python programming, we need an interpreter to compile our python program. We know that python has several versions, commonly `python2.x` and `ptyhon3.x`. To build a python application, we often use third party packages and modules. Each package and module may have several versions in which one version may support `python2.x` whereas another version may support `python3.x`.
 
@@ -18,7 +18,7 @@ The solution for this problem is to create a **virtual environment**, a self-con
 
 A virtual environment is a tool that helps to keep dependencies by different projects separate by creating isolated Python virtual environments for them.
 
-![](img/1__HE7Z5NJc5UGTUs4gJFlM3A.png)
+![](../assets/img/1__HE7Z5NJc5UGTUs4gJFlM3A.png)
 
 Whenever you start working on projects, you can create different virtual environments for each project separately with different python versions. In the above pictures, It’s shown that each virtual environment uses a different version of a module `ansible` . Each environment will be its own virtual space. All packages installed within that space would not interfere with packages outside the environment and will be contained only inside this space.
 
@@ -61,7 +61,7 @@ which python
 which python3.x #   
   
 
-![](img/1__enheWLs__sCoiJk6la9__9Gw.png)
+![](../assets/img/1__enheWLs__sCoiJk6la9__9Gw.png)
 
 Go to a directory where you want to create a virtual environment and then run the following command:
 
