@@ -6,20 +6,26 @@ highlighter:      rouge
 title:            imShakil
 tagline:          'A Personal Blog'
 description:      'Support Engineer | Gluu'
-url:              https://fongandrew.github.io
-baseurl:          ''
-
-author:
-  name:           'Andrew Fong'
-  url:            https://twitter.com/fongandrewc
+author: Mobarak Hosen Shakil
+avatar: /favicon.jpeg
+email: mh.ice.iu@gmail.com
 
 paginate:         5
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
 
+
+# Uncomment the below lines and set the Disqus shortname for enabling Disqus
+#
+# disqus:
+
+# Jekyll
+# ======
+
 plugins:
+  - jekyll-seo-tag
   - jekyll-feed
-  - jekyll-gist
+  - jekyll-sitemap
   - jekyll-paginate
 
 # Sidebar link settings
@@ -29,5 +35,19 @@ sidebar_home_link:  true
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 
+twitter:
+  username: mhiceiuk
+  card: summary
+logo: favicon.jpeg
+social:
+  name: Mobarak Hosen Shakil
+  links:
+    - https://twitter.com/mhiceiuk
+    - https://github.com/imshakil
+    - https://medium.com/@imshakil
+    - https://linkedin.com/in/imshakil
+
 google_ad_client: ca-pub-2449944472030683
 google_analytics: G-8KPHQTM1B5
+google_site_verification: u4WXQl0Eu66rsQo2kRdCNx
+lang: en
