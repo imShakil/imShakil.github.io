@@ -19,14 +19,8 @@
     {%- endif %}
     {% if site.description -%}
       <li>
-        <i class="sidebar-icon fas fa-user-tie"></i>
-        <span class="contact-info p-name">{{ site.description | escape }}</span>
-      </li>
-    {%- endif %}
-    {% if site.organization -%}
-      <li>
         <i class="sidebar-icon fas fa-at"></i>
-        <a class="contact-info u-location" href="{{ site.organization_url }}" target="_blank">{{ site.organization }}</></a>
+        <span class="contact-info p-name">{{ site.description | escape }} | </span> <a class="contact-info u-location" href="{{ site.organization_url }}" target="_blank">{{ site.organization }}</a>
       </li>
     {%- endif %}
     {% if site.email -%}
