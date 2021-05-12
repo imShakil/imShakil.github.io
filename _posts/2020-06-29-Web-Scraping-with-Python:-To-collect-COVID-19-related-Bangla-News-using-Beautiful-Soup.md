@@ -112,7 +112,7 @@ following result:
 
 Completed code:
 
-<iframe src="https://medium.com/media/9f267b8ebda448e615e9db3cd7cce16b" frameborder=0></iframe>
+{% gist 58648d30a3fc8216465126df91f5b705 scraper.py %}
 
 We can add multiple website, to get more news. also if we use meta data extraction then more news can be found. I have uploaded a complete code in github.
 
