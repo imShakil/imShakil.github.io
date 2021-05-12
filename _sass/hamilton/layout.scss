@@ -182,7 +182,6 @@
 .site-body {
   display: grid;
   grid-template-columns: calc(#{$content-width} * 0.24) 1fr;
-  overflow: auto;
 
   @include media-query($on-medium) {
     grid-template-columns: calc(#{$content-width} * 0.18) 1fr;
@@ -321,11 +320,9 @@ ul.social-icons {
  */
 .site-main {
   flex: 1 0 auto;
-  overflow-y: scroll;
 
   // Hide scrollbar for IE, Edge and Firefox
   -ms-overflow-style: none;  // IE and Edge
-  scrollbar-width: none;     // Firefox
 
   padding-left: $spacing-unit;
   padding-right: $spacing-unit;

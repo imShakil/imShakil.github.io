@@ -33,7 +33,7 @@ layout: default
           {%- endif -%}
         </p>
         {%- if post.show_excerpts != false -%}
-          <div class="post-excerpt">{{ post.content | strip_html | truncatewords: 50 }}</div>
+          <div class="post-excerpt">{{ post.content | strip_html | truncatewords: 50 }} <a href="{{ post.url | relative_url }}">[Read More]</a> </div>
         {%- endif -%}
       </li>
       {%- endfor -%}
