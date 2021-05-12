@@ -182,9 +182,6 @@
 .site-body {
   display: grid;
   grid-template-columns: calc(#{$content-width} * 0.24) 1fr;
-  overflow-x: hidden;
-  overflow-y: auto;
-  text-align: justify;
 
   @include media-query($on-medium) {
     grid-template-columns: calc(#{$content-width} * 0.18) 1fr;
