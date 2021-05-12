@@ -1,6 +1,6 @@
 ---
 title: Getting Started with Testing in Python
-categories: ['porgramming']
+categories: ['programming']
 tags: ['python', 'programming', 'unit-testing']
 toc: true
 ---
@@ -46,7 +46,8 @@ Automation Testing is the process of testing the software using an automation to
 
 * IBM Functional Tester
 
-![source: guru99](https://cdn-images-1.medium.com/max/2000/1*kj65XMPiH7-u0nAhFATI9A.png)*source: guru99*
+![source: guru99](https://cdn-images-1.medium.com/max/2000/1*kj65XMPiH7-u0nAhFATI9A.png)
+*source: guru99*
 
 This comparison doesn't mean that you can choose one over the other. In the software industry, both of them are used sequentially. There is still a lot to know about Automation and Manual Testing.
 
@@ -54,7 +55,8 @@ This comparison doesn't mean that you can choose one over the other. In the soft
 
 When you are working on a team, you may contribute a small part of the software/project. The combined works become a successful project. When you write a simple function and test that code is working fine, then this type of test is called a **Unit test. **When all of the modules are integrated and then testing is required to check that everything is working as expected, that’s called **Integration Testing**. So, a unit testing is to identify that a small component is working or not whereas integrated testing is to identify that component operates with each other components on the application.
 
-![unit test vs integration test](https://cdn-images-1.medium.com/max/2000/1*wLa_2P7D0coUth2vZ7iUiw.gif)*unit test vs integration test*
+![unit test vs integration test](https://cdn-images-1.medium.com/max/2000/1*wLa_2P7D0coUth2vZ7iUiw.gif)
+*unit test vs integration test*
 
 ### Unit test:
 
@@ -92,7 +94,8 @@ In python programming, there are many test runners available. **unittest** is on
 
 1. You have to use assertion methods in the unittest class
 
-![unittest assertion methods](https://cdn-images-1.medium.com/max/2000/1*9kSsBsn__CMQLEhRUcre6g.png)*unittest assertion methods*
+![unittest assertion methods](https://cdn-images-1.medium.com/max/2000/1*9kSsBsn__CMQLEhRUcre6g.png)
+*unittest assertion methods*
 
 To execute a test you have to:
 
@@ -126,7 +129,9 @@ While running this code, doctest will run and complain if the given description 
 
 **pytest** is an external tool for testing in python. It has some advantages compared to **unittest** . Since it is an external tool, so you have to install it first in your python interpreter. To install **pytest** run the following command:
 
-    **pip install pytest**
+```
+pip install pytest
+```
 
 following code to understand how it works:
 
@@ -134,9 +139,12 @@ following code to understand how it works:
 
 Run the following command in your project terminal:
 
-    py.test pytest.py
+```
+py.test pytest.py
+```
 
-![result of pytest](https://cdn-images-1.medium.com/max/2622/1*bMc8Y2mWYKznqjmwgIZRAw.png)*result of pytest*
+![result of pytest](https://cdn-images-1.medium.com/max/2622/1*bMc8Y2mWYKznqjmwgIZRAw.png)
+*result of pytest*
 
 You will get results like the above image.
 
