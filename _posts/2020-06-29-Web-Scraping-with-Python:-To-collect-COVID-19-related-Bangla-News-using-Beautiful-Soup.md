@@ -1,4 +1,8 @@
-# Web Scraping with Python: To collect COVID-19 related Bangla News using Beautiful Soup
+---
+title: Web Scraping in python using Beautiful Soup
+categories: ['programming']
+tags: ['bs4', 'python', 'programming']
+---
 
 We visit a lot of websites every day. Sometimes we need to collect some pieces of information. How can we do this? The only solution is to copy-paste or saving the page as a PDF? Let's take an example; Rocomari is a Bangladeshi online marketplace for ordering books. They sell books with discounts in different categories. So you want to buy a book with a 40% discount. You want notifications when that book will sell at a 40% discount. Here, web scraper may help you in a better way instead of looking through the website each day manually.
 
@@ -119,4 +123,4 @@ We can add multiple website, to get more news. also if we use meta data extracti
 Github link of this sample project: [https://github.com/imShakil/DataScience/tree/master/web_scraping](https://github.com/imShakil/DataScience/tree/master/web_scraping)
 
 That’s all for this article. If you want to know more about Beautiful Soup;
-go to their homepage: [https://www.crummy.com/software/BeautifulSoup/bs4/doc/](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+Please, read from the official documentation: [https://www.crummy.com/software/BeautifulSoup/bs4/doc/](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
