@@ -26,7 +26,7 @@
     {% if site.organization -%}
       <li>
         <i class="sidebar-icon fas fa-at"></i>
-        <span class="contact-info p-name"><a href="{{ site.organization_url }}" target="_blank">{{ site.organization }}</a></span>
+        <a class="contact-info u-location" href="{{ site.organization_url }}" target="_blank">{{ site.organization }}</></a>
       </li>
     {%- endif %}
     {% if site.email -%}
