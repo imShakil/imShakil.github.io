@@ -32,6 +32,14 @@ main {
   display: block;
 }
 
+div.scroll {
+  margin:4px;
+  padding:4px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align:justify;
+}
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
