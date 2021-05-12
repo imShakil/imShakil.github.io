@@ -23,10 +23,10 @@
         <span class="contact-info p-name">{{ site.description | escape }}</span>
       </li>
     {%- endif %}
-    {% if site.description -%}
+    {% if site.organization -%}
       <li>
         <i class="sidebar-icon fas fa-at"></i>
-        <span class="contact-info p-name"><a href="{{ site.organization_url }}/" target="_blank">{{ site.organization | escape }}</a></span>
+        <span class="contact-info p-name"><a href="{{ site.organization_url }}" target="_blank">{{ site.organization }}</a></span>
       </li>
     {%- endif %}
     {% if site.email -%}
