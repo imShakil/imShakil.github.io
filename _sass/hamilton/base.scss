@@ -43,12 +43,13 @@ body {
   overflow-x: hidden;
   line-height: $base-line-height;
 }
-
+/**
 p {
   -webkit-hyphens: auto;
       -ms-hyphens: auto;
           hyphens: auto;
 }
+*/
 
 hr {
   margin-top: $spacing-unit;
